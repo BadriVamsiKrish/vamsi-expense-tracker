@@ -1,0 +1,58 @@
+.signin-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60vh; /* This will center the component vertically on the page */
+  text-align: center;
+  border:10px inset black;
+  padding-left:3cm;
+  padding-right: 3cm;
+  padding-top:4cm;
+  padding-bottom: 4cm;
+  background-color:cornflowerblue;
+
+}
+
+.signin-label {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.signin-input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: 15px;
+}
+
+.signin-button {
+  align-self: flex-end; /* Position the button to the bottom-right */
+}
+.listitem{
+  border:5px solid white;
+  background-color: aquamarine;
+  color: black;
+  display: flex;
+}
+.btns{
+  padding:1cm;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.head{
+  color: black;
+  font-style:italic;
+  font-size: larger;
+  background-color:aquamarine;
+  border:3px groove goldenrod;
+  border-radius:1cm;
+  padding:0cm 1cm;
+}
+.signinbtn{
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  padding:10px;
+}
